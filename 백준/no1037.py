@@ -1,0 +1,5 @@
+testNum = int(input())
+array = list(map(int,input().split()))
+a_max = max(array)
+a_min = min(array)
+print(a_max * a_min)
